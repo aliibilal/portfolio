@@ -1,8 +1,7 @@
 import Image from "next/image";
-import React from "react";
 const About = () => {
   return (
-    <div id="about" className="">
+    <div id="about">
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
@@ -24,20 +23,19 @@ const About = () => {
               through the PIAIC course. But wait, there's more! I've also started exploring the cool universe of digital marketing with Bano Qabil.
               Join me on this journey as I learn, code, and market my way through the digital landscape. Exciting times ahead, and I'll be sharing it all right here!
             </i>
-          
-          <div className="flex justify-center">
-            <a href={"/assets/mycv.pdf"}
-              target="blank">
-              <button className=" inline-flex text-white bg-green-500 border-0 py-2 px-5 focus:outline-none hover:bg-green-800 rounded text-lg ">
-                View CV
-              </button>
-            </a>
+            <div className="flex justify-center">
+              <a href={"/assets/mycv.pdf"}
+                target="blank">
+                <button className=" inline-flex text-white bg-green-500 border-0 py-2 px-5 focus:outline-none hover:bg-green-800 rounded text-lg ">
+                  View CV
+                </button>
+              </a>
+            </div>
           </div>
         </div>
-    </div>
       </section >
-      </div >
+    </div >
 
-    )
+  )
 }
 export default About
