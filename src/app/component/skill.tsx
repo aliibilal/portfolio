@@ -1,5 +1,5 @@
 import { AiOutlineCheckSquare } from "react-icons/ai";
-
+import React from "react";
 const Skill = () => {
     return (
         <div id="skills" className=" ">

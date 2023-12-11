@@ -3,6 +3,7 @@ import Contact from "./component/contact";
 import Hero from "./component/hero";
 import Project from "./component/project";
 import Skill from "./component/skill";
+import React from "react";
 
 export default function Home() {
   return (

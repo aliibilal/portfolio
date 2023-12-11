@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Typewriter from 'typewriter-effect';
-
+import React from "react";
 const Hero = () => {
     return (
         <div className=" -mt-24 mb-9 ">
