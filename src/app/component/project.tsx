@@ -33,7 +33,7 @@ const Project = () => {
                   <i className="leading-relaxed">
                     This is Facebook Login Page
                   </i>
-                  <Link href={"https://login-ali-bilals-projects.vercel.app/"}>
+                  <Link target='blank' href={"https://login-ali-bilals-projects.vercel.app/"}>
                     <p className="leading-relaxed text-green-500 hover:text-green-800 hover:underline">
                       View Project..
                     </p>
