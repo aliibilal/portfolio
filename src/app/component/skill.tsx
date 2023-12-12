@@ -46,7 +46,7 @@ const Skill = () => {
                                 </div>
                                 <div className="flex-grow">
 
-                                    <i> I'm really good at solving hard problems quickly and in a simple way.</i>
+                                    <i> I am really good at solving hard problems quickly and in a simple way.</i>
 
                                 </div>
                             </div>

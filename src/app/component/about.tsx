@@ -20,9 +20,9 @@ const About = () => {
 
             </h1>
             <i className="mb-5 leading-relaxed">
-              Hi! My name is ALI BILAL I'm a 16-year-old high school student at Usman Public School in Karachi. Right now, I'm diving into the world of coding with next.js, CSS, and HTML
-              through the PIAIC course. But wait, there's more! I've also started exploring the cool universe of digital marketing with Bano Qabil.
-              Join me on this journey as I learn, code, and market my way through the digital landscape. Exciting times ahead, and I'll be sharing it all right here!
+              Hi! My name is ALI BILAL I am a 16-year-old high school student at Usman Public School in Karachi. Right now, I am diving into the world of coding with next.js, CSS, and HTML
+              through the PIAIC course. But wait, there is more! I have also started exploring the cool universe of digital marketing with Bano Qabil.
+              Join me on this journey as I learn, code, and market my way through the digital landscape. Exciting times ahead, and I will be sharing it all right here!
             </i>
             <div className="flex justify-center">
               <a href={"/assets/mycv.pdf"}
@@ -36,7 +36,6 @@ const About = () => {
         </div>
       </section >
     </div >
-
   )
 }
 export default About

@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import Link from "next/link";
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 import React from "react";
 const Hero = () => {
     return (
@@ -22,7 +22,7 @@ const Hero = () => {
                         </h1>
                         <div className="w-[100px] h-[2px] bg-green-800"></div>
                         <i className="mb-8 leading-relaxed">
-                            Hi! I really like coming up with new ideas and paying close attention to the little details. Recently, I've jumped into the world of artificial intelligence and computing, and it's been a super exciting journey! I'm all about learning and doing things really well, and that's already led to some cool achievements, especially in the fast-moving world of web development. Stick around, and let's explore how technology can make a big impact together. Oh, and guess what? I'm also getting into digital marketing. Come along for the ride!
+                            Hi! I really like coming up with new ideas and paying close attention to the little details. Recently, I have jumped into the world of artificial intelligence and computing, and its been a super exciting journey! I am all about learning and doing things really well, and thats already led to some cool achievements, especially in the fast-moving world of web development. Stick around, and lets explore how technology can make a big impact together. Oh, and guess what? I am also getting into digital marketing. Come along for the ride!
                         </i>
                         <div className="flex justify-center">
                             <Link href={"#contact"}>
