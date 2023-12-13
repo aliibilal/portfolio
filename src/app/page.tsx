@@ -6,7 +6,7 @@ import Skill from "./component/skill";
 import React from "react";
 export default function Home() {
   return (
-    <div>
+    <div className=" bg-[#101820]" >
       <Hero />
       <About />
       <Skill />
